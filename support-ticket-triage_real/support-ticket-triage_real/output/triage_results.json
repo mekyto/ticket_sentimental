@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "subject": "Can't log in to my account",
+    "body": "I've been trying to log in for the past 2 hours but keep getting 'invalid credentials' error. I've reset my password 3 times already and nothing works. This is extremely frustrating, I need access to my account immediately for work!",
+    "department": "Account",
+    "urgency": "High",
+    "issue_summary": "Customer unable to log in despite multiple password resets, receiving 'invalid credentials' error for 2 hours.",
+    "root_cause": "Possible account lockout due to multiple failed attempts, or password reset not propagating correctly.",
+    "suggested_action": "Manually verify account status, check for lockout flags, and assist with a supervised password reset.",
+    "sentiment": "Angry",
+    "draft_reply": null
+  },
+  {
+    "id": "2",
+    "subject": "Billing charge I don't recognize",
+    "body": "Hi, I noticed a charge of $49.99 on my credit card from your company dated March 15. I don't remember authorizing this payment. Could you please look into this and refund if it's an error? Thanks.",
+    "department": "Billing",
+    "urgency": "Normal",
+    "issue_summary": "Customer reports an unrecognized $49.99 charge on March 15 and requests investigation and potential refund.",
+    "root_cause": "Possible auto-renewal, duplicate charge, or unauthorized transaction.",
+    "suggested_action": "Look up the transaction by date and amount, verify against customer's subscription history, and process refund if unwarranted.",
+    "sentiment": "Neutral",
+    "draft_reply": null
+  },
+  {
+    "id": "3",
+    "subject": "App crashes on startup",
+    "body": "Every time I open the mobile app on my iPhone 14, it crashes within 2 seconds. I've tried reinstalling it twice. Running iOS 17.3. This started happening after the last update.",
+    "department": "Technical",
+    "urgency": "High",
+    "issue_summary": "Mobile app crashes immediately on startup on iPhone 14 (iOS 17.3) after the latest update; reinstalling did not help.",
+    "root_cause": "Likely a regression bug introduced in the latest app update affecting iOS 17.3 compatibility.",
+    "suggested_action": "Escalate to the mobile engineering team with device/OS details, check crash logs, and suggest the customer try clearing app cache.",
+    "sentiment": "Angry",
+    "draft_reply": null
+  },
+  {
+    "id": "4",
+    "subject": "Request to upgrade my plan",
+    "body": "Hello, I'm currently on the Basic plan and would like to upgrade to Premium. Can you walk me through the process and let me know if there are any prorated charges? I'm happy with the service so far!",
+    "department": "Account",
+    "urgency": "Normal",
+    "issue_summary": "Customer wants to upgrade from Basic to Premium plan and asks about the process and prorated charges.",
+    "root_cause": "Standard plan upgrade request — no issue, customer is satisfied.",
+    "suggested_action": "Walk the customer through the upgrade flow in account settings and explain proration policy.",
+    "sentiment": "Satisfied",
+    "draft_reply": null
+  },
+  {
+    "id": "5",
+    "subject": "Data export not working",
+    "body": "URGENT: I need to export my data for a compliance audit that's due tomorrow. The export button returns a 500 error every time I click it. This is blocking critical business operations. Please escalate immediately.",
+    "department": "Technical",
+    "urgency": "Critical",
+    "issue_summary": "Data export feature returns a 500 error, blocking a compliance audit due tomorrow.",
+    "root_cause": "Server-side error (HTTP 500) in the export functionality, possibly a backend service failure or timeout.",
+    "suggested_action": "Immediately escalate to backend engineering, check export service logs, and offer a manual data export as a workaround.",
+    "sentiment": "Angry",
+    "draft_reply": "Dear Customer,\n\nThank you for reaching out, and I sincerely apologize for the inconvenience this is causing, especially with your compliance deadline tomorrow.\n\nI've escalated this issue to our engineering team as a top priority. In the meantime, I'm arranging a manual data export for your account so you can meet your audit deadline.\n\nA senior engineer will contact you within the next 2 hours with an update. If you need anything before then, please reply directly to this email.\n\nWe understand how critical this is and are treating it with the highest urgency.\n\nBest regards,\nSupport Team"
+  },
+  {
+    "id": "6",
+    "subject": "Cancel my subscription",
+    "body": "I want to cancel my subscription effective immediately. The product hasn't met my expectations and I've found a better alternative. Please confirm cancellation and let me know about any final charges.",
+    "department": "Account",
+    "urgency": "Normal",
+    "issue_summary": "Customer requests immediate subscription cancellation due to dissatisfaction and wants confirmation of any final charges.",
+    "root_cause": "Product did not meet customer expectations; customer has found an alternative.",
+    "suggested_action": "Process cancellation, confirm final billing details, and optionally offer a brief exit survey or retention offer.",
+    "sentiment": "Neutral",
+    "draft_reply": null
+  },
+  {
+    "id": "7",
+    "subject": "Feature request - dark mode",
+    "body": "Love the product! Just wanted to suggest adding a dark mode option. My eyes get tired during late night sessions. Not urgent at all, just a nice-to-have for the future. Keep up the great work!",
+    "department": "Other",
+    "urgency": "Low",
+    "issue_summary": "Satisfied customer requests a dark mode feature for late-night usage comfort.",
+    "root_cause": "No issue — this is a feature request for improved UX.",
+    "suggested_action": "Log the feature request in the product backlog and send a thank-you reply acknowledging the suggestion.",
+    "sentiment": "Satisfied",
+    "draft_reply": null
+  },
+  {
+    "id": "8",
+    "subject": "API rate limiting issues",
+    "body": "We're getting 429 errors on our production integration since yesterday. Our usage hasn't changed. Are there new rate limits? This is affecting our customers and we need a resolution ASAP.",
+    "department": "Technical",
+    "urgency": "Critical",
+    "issue_summary": "Customer's production integration is receiving 429 rate limit errors since yesterday despite no change in usage, impacting their end customers.",
+    "root_cause": "Possible unannounced rate limit change, misconfigured rate limiter, or shared limit being consumed by another service.",
+    "suggested_action": "Check rate limit configuration for this customer's API key, review recent platform changes, and temporarily increase their limit while investigating.",
+    "sentiment": "Angry",
+    "draft_reply": "Dear Customer,\n\nThank you for reporting this — I understand how critical this is for your production environment.\n\nWe're investigating the 429 errors on your integration right now. Our engineering team is reviewing your API key's rate limit configuration and recent platform changes.\n\nAs an immediate step, we're temporarily increasing your rate limit while we identify the root cause. You should see improvement within the next hour.\n\nI'll follow up with a full explanation once our investigation is complete. Please don't hesitate to reach out if the issue persists.\n\nBest regards,\nSupport Team"
+  },
+  {
+    "id": "9",
+    "subject": "Wrong invoice amount",
+    "body": "The invoice #INV-2024-0892 shows $1,200 but our contract states $999/month. This is the second month in a row with incorrect billing. Very disappointed with this recurring issue.",
+    "department": "Billing",
+    "urgency": "High",
+    "issue_summary": "Invoice shows $1,200 instead of the contracted $999/month, and this is the second consecutive month with incorrect billing.",
+    "root_cause": "Billing system not reflecting the contracted rate, possibly due to a pricing tier misconfiguration or failed contract update.",
+    "suggested_action": "Correct the invoice, issue a credit for both months' overcharges, and fix the billing configuration to match the contract.",
+    "sentiment": "Angry",
+    "draft_reply": null
+  },
+  {
+    "id": "10",
+    "subject": "Password reset email not arriving",
+    "body": "I requested a password reset 30 minutes ago but haven't received the email. Checked spam folder too. My email is correct in the system. Can someone help? I need to access my account today.",
+    "department": "Account",
+    "urgency": "High",
+    "issue_summary": "Customer has not received a password reset email after 30 minutes, despite checking spam and confirming correct email on file.",
+    "root_cause": "Email delivery failure — possibly an issue with the email service provider, DNS/SPF misconfiguration, or the email being silently filtered.",
+    "suggested_action": "Check email delivery logs for the customer's address, verify email service status, and manually trigger a new reset or assist with alternative verification.",
+    "sentiment": "Neutral",
+    "draft_reply": null
+  }
+]

@@ -1,0 +1,12 @@
+id,subject,body
+1,Can't log in to my account,"I've been trying to log in for the past 2 hours but keep getting 'invalid credentials' error. I've reset my password 3 times already and nothing works. This is extremely frustrating, I need access to my account immediately for work!"
+2,Billing charge I don't recognize,"Hi, I noticed a charge of $49.99 on my credit card from your company dated March 15. I don't remember authorizing this payment. Could you please look into this and refund if it's an error? Thanks."
+3,App crashes on startup,"Every time I open the mobile app on my iPhone 14, it crashes within 2 seconds. I've tried reinstalling it twice. Running iOS 17.3. This started happening after the last update."
+4,Request to upgrade my plan,"Hello, I'm currently on the Basic plan and would like to upgrade to Premium. Can you walk me through the process and let me know if there are any prorated charges? I'm happy with the service so far!"
+5,Data export not working,"URGENT: I need to export my data for a compliance audit that's due tomorrow. The export button returns a 500 error every time I click it. This is blocking critical business operations. Please escalate immediately."
+6,Cancel my subscription,"I want to cancel my subscription effective immediately. The product hasn't met my expectations and I've found a better alternative. Please confirm cancellation and let me know about any final charges."
+7,Feature request - dark mode,"Love the product! Just wanted to suggest adding a dark mode option. My eyes get tired during late night sessions. Not urgent at all, just a nice-to-have for the future. Keep up the great work!"
+8,API rate limiting issues,"We're getting 429 errors on our production integration since yesterday. Our usage hasn't changed. Are there new rate limits? This is affecting our customers and we need a resolution ASAP."
+9,Wrong invoice amount,"The invoice #INV-2024-0892 shows $1,200 but our contract states $999/month. This is the second month in a row with incorrect billing. Very disappointed with this recurring issue."
+10,Password reset email not arriving,"I requested a password reset 30 minutes ago but haven't received the email. Checked spam folder too. My email is correct in the system. Can someone help? I need to access my account today."
+11,I love stying,I love styuding cause its interesting
